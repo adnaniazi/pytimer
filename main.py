@@ -83,11 +83,11 @@ class MyMainGui(QMainWindow, Ui_MainWindow):
 
         if self.hours > 0 and self.minutes == 0:
             self.hours = self.hours - 1
-            self.minutes = 59
+            self.minutes = 60
             self.seconds = 60
 
         self.seconds = self.seconds - 1
-        print(self.hours, self.minutes, self.seconds)
+        #print(self.hours, self.minutes, self.seconds)
 
         if self.hours == 0 and self.minutes == 0 and self.seconds == 0:
             self.timer.stop()
