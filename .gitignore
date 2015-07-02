@@ -222,5 +222,5 @@ pip-log.txt
 
 ## Directory-based project format:
 .idea/
-__pycache__/
+/__pycache__/
 
