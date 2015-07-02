@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>icons/pause.png</file>
+	<file>icons/reset.png</file>
+	<file>icons/play.png</file>
+	<file>icons/gui-icon.png</file>
+</qresource>
+</RCC>
